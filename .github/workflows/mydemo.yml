@@ -1,0 +1,8 @@
+name: myfirstjobever
+'on': push
+jobs: null
+my-job: null
+runs-on: ubountu-latest
+steps:
+  - name: my-step
+run: echo "hello world"
